@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Confluence headers",
+  "description": "Notion-like headers for Confluence",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/build-headers.js"],
+      "matches": ["https://*.atlassian.net/wiki/*"]
+    }
+  ]
+}
