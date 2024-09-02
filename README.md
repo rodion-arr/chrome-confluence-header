@@ -14,6 +14,12 @@ Adds Notion-like floating headers for Confluence.
   </tr>
 </table>
 
+## Features
+
+- Limited to Cloud Confluence pages only. `https://*.atlassian.net/wiki/"`
+- Edit page mode is supported.
+- Refreshes the headers list every 5 sec in collapsed state.
+
 ## Installation
 
 1. Clone the repository
@@ -26,8 +32,11 @@ Adds Notion-like floating headers for Confluence.
 5. Click on `Load unpacked`
 6. Select the repo folder from the cloned repository
 
-## Features
+## Getting updates
 
-- Limited to Cloud Confluence pages only. `https://*.atlassian.net/wiki/"`
-- Edit page mode is supported.
-- Refreshes the headers list every 5 sec in collapsed state.
+1. Pull the latest changes
+   ```bash
+   git pull
+   ```
+2. Go to `chrome://extensions/`
+3. Click on the refresh icon for the extension
