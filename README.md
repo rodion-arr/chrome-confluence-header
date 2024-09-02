@@ -7,6 +7,12 @@ Adds Notion-like floating headers for Confluence.
 - You should see a floating headers list on the right of the page.
 - Click on any header in the list to navigate to that header in the page.
 
+
+
+https://github.com/user-attachments/assets/3b0123ef-4bf9-4d8c-857a-39c52b1b0715
+
+
+
 <table>
   <tr>
     <td><img width="600" alt="Screenshot 2024-09-02 at 09 50 44" src="https://github.com/user-attachments/assets/02359a59-7e4d-4775-a81e-826d0ec0dfe2"></td>
